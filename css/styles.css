@@ -1,0 +1,178 @@
+html, body{
+    overflow-x: hidden;
+}
+
+#title{
+    background-color: #ff4c68;
+    padding: 3% 15% 7%;
+}
+
+#title .nav-item{
+    margin: 0 25px 0 25px;
+}
+
+#title .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title button{
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+#title .imgBOX{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* new section */
+
+#features .container{
+    height: 70vh;    
+}
+
+#features .row{
+    height: 100%;
+    padding: 5%;
+}
+
+#features .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#features .col i{
+    font-size: 70px;
+    padding: 2%;
+    color: #ff8598;
+}
+
+    #features .col i:hover{
+        color: #ff5770;
+    }
+
+#features .col h3{
+    font-family: 'Montserrat, sans-serif';
+    padding: 2%;
+}
+
+#features .col p{
+    font-family: sans-serif;
+    color: rgb(77, 77, 77);
+}
+
+/* new section */
+
+#testimonials{
+    background-color: #ff8598;
+    padding: 7%;
+}
+
+#testimonials .inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#testimonials .inner h2{
+    font-family: 'Montserrat, sans-serif';
+    font-size: 50px;
+}
+
+/* new section */
+
+#press{
+    background-color: #ff8598;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* new section */
+
+.pricing-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.pricing-title h2{
+    font-family: 'Montserrat, sans-serif';
+    font-size: 50px;
+}
+
+.pricing-title p{
+    font-size: 20px;
+}
+
+/* new section */
+
+#cta{
+    border: 2px solid;
+    width: 100vw;
+    height: 51vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff8598;
+    color: white;
+}
+
+
+#cta h3{
+    font-family: 'Montserrat, sans-serif';
+    font-size: 50px;
+}
+
+/* new section */
+
+#footer{
+    width: 100vw;
+    height: 51vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .social{
+    width: 30%;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+
+
+@media (max-width: 990px){
+
+    #title .textBOX{
+        border: 2px solid;
+        text-align: center;
+    }
+
+    #title img{
+        width: 200px;
+    }
+
+    #title .imgBOX{
+        border: 2px solid;
+        display: flex;
+        justify-content: center;
+    }
+
+}
